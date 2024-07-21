@@ -12,7 +12,7 @@ dotnet tool install --global dotnet-ef
 ## 2. Setup database
 
 1. Create a database in SQL Server
-2. Update the `ConnectionString` in `/PaylocityBenefitsCalculator/src/Api/appsettings.json`
+2. Update the `ConnectionString` in `/src/Api/appsettings.json`
 3. Run the migration. Starting from the repo root:
 ```
 cd src\Api
