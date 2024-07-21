@@ -1,0 +1,23 @@
+@HostAddress=http://localhost:5124
+
+# Get employee
+GET {{HostAddress}}/api/v1/employees/1
+Accept: application/json
+
+###
+
+# Get all employees
+GET {{HostAddress}}/api/v1/employees
+Accept: application/json
+
+###
+
+# Get dependent
+GET {{HostAddress}}/api/v1/dependents/1
+Accept: application/json
+
+###
+
+# Get all dependents
+GET {{HostAddress}}/api/v1/dependents
+Accept: application/json
