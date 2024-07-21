@@ -1,4 +1,5 @@
-﻿using Api.Dtos.Employee;
+﻿using Api.Dtos;
+using Api.Dtos.Employee;
 using Api.Services;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
